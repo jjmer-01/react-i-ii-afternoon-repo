@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .whole-enchilada {
+  
+} */
+
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: dodgerblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
+  margin-left: 40px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  background-color: dodgerblue;
+}
+
+.profile-box {
+  background-color: white;
+  width: 80vw;
+  height: 500px;
+  margin: 120px auto 0px;
+}
+
+.action-buttons {
+  margin-top: 10px;
+}
+
+.action-buttons {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+li {
+  margin: 10px;
+}
+
+.action {
+  display: flex;
+}
+
+.anchors {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-box {
+  box-sizing: border-box;
+}
+
+.pb-top-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.num-track {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.employee {
+  font-size: 40px;
+  text-decoration: underline solid dodgerblue;
+  padding: 20px 30px;
+}
+
+.main-text {
+  font-size: 25px;
+}
+
+.eeInfo {
+  list-style: none;
+  padding: 0px 30px;
+}
+
+.employeefav {
+  padding: 20px 40px 5px 40px;
+}
+
+ol {
+  padding-left: 100px;
 }
